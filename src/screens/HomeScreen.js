@@ -9,7 +9,7 @@ import FoodCard from '../components/FoodCard';
 
 const SCREEN_WIDTH = Dimensions.get('window').width
 
-export default function HomeScreen(){
+export default function HomeScreen({navigation}){
     const [delivery,setDelivery]=useState(true);
     const [indexCheck,setIndexCheck]=useState("0");
     return(
